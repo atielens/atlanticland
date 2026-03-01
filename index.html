@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Atlantic Land Management</title>
+  <meta name="description" content="Atlantic Land Management — property cleanup, grading, brush clearing, and land services." />
+
+  <!-- Simple social preview -->
+  <meta property="og:title" content="Atlantic Land Management" />
+  <meta property="og:description" content="Land services: cleanup, grading, clearing, and more." />
+  <meta property="og:type" content="website" />
+
+  <link rel="icon" href="images/logo.png" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="container nav">
+      <a class="brand" href="#top">
+        <span class="brand-mark">ALM</span>
+        <span class="brand-name">Atlantic Land Management</span>
+      </a>
+      <nav class="links">
+        <a href="#services">Services</a>
+        <a href="#gallery">Work</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <h1>Land services done right.</h1>
+          <p class="lead">
+            Property cleanup, brush clearing, grading, and site prep — fast communication, clean results.
+          </p>
+
+          <div class="cta-row">
+            <a class="btn primary" href="tel:+1XXXXXXXXXX">Call</a>
+            <a class="btn" href="mailto:youremail@example.com">Email</a>
+            <a class="btn" href="https://YOUR-SCHEDULING-LINK" target="_blank" rel="noreferrer">Schedule</a>
+          </div>
+
+          <div class="quick-links">
+            <a href="https://YOUR-GOOGLE-REVIEW-LINK" target="_blank" rel="noreferrer">Leave a Google Review →</a>
+          </div>
+
+          <ul class="bullets">
+            <li>Free estimates</li>
+            <li>Residential & commercial</li>
+            <li>Licensed/insured (add details if applicable)</li>
+          </ul>
+        </div>
+
+        <div class="hero-card">
+          <h2>Service Area</h2>
+          <p>Update this to your area (example: “Coastal NC & surrounding counties”).</p>
+          <div class="card-divider"></div>
+          <h3>Hours</h3>
+          <p>Mon–Sat: 8am–6pm<br/>Sun: By appointment</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="section">
+      <div class="container">
+        <h2>What we do</h2>
+        <p class="section-sub">
+          A few of our common services — if you don’t see it here, ask.
+        </p>
+
+        <div class="cards">
+          <article class="card">
+            <h3>Brush Clearing</h3>
+            <p>Clearing overgrowth, small trees, and brush to open up your property.</p>
+          </article>
+          <article class="card">
+            <h3>Grading & Leveling</h3>
+            <p>Driveways, pads, drainage improvements, and general site prep.</p>
+          </article>
+          <article class="card">
+            <h3>Cleanup & Haul-off</h3>
+            <p>Debris removal, storm cleanup, and property refreshes.</p>
+          </article>
+          <article class="card">
+            <h3>Light Excavation</h3>
+            <p>Trenching and small excavation work (customize to your actual offerings).</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery" class="section alt">
+      <div class="container">
+        <h2>Recent work</h2>
+        <p class="section-sub">
+          Add photos to <code>images/work/</code> and list them in <code>script.js</code>.
+        </p>
+
+        <div id="galleryGrid" class="gallery" aria-live="polite"></div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container contact-grid">
+        <div>
+          <h2>Contact</h2>
+          <p class="section-sub">Get a quote or schedule a site visit.</p>
+
+          <div class="contact-list">
+            <div class="contact-item">
+              <span class="label">Phone</span>
+              <a href="tel:+1XXXXXXXXXX">+1 (XXX) XXX-XXXX</a>
+            </div>
+            <div class="contact-item">
+              <span class="label">Email</span>
+              <a href="mailto:youremail@example.com">youremail@example.com</a>
+            </div>
+            <div class="contact-item">
+              <span class="label">Schedule</span>
+              <a href="https://YOUR-SCHEDULING-LINK" target="_blank" rel="noreferrer">Book an appointment</a>
+            </div>
+            <div class="contact-item">
+              <span class="label">Google Reviews</span>
+              <a href="https://YOUR-GOOGLE-REVIEW-LINK" target="_blank" rel="noreferrer">Leave a review</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="form-card">
+          <h3>Quick message</h3>
+          <p class="small">
+            This sends via your email app (simple + no backend). If you want a real form later,
+            we can add Formspree or a serverless endpoint.
+          </p>
+
+          <form id="mailtoForm">
+            <label>
+              Name
+              <input name="name" required placeholder="Your name" />
+            </label>
+            <label>
+              Phone (optional)
+              <input name="phone" placeholder="(555) 555-5555" />
+            </label>
+            <label>
+              Message
+              <textarea name="message" required placeholder="What do you need done?"></textarea>
+            </label>
+            <button class="btn primary" type="submit">Open Email</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-row">
+      <p>© <span id="year"></span> Atlantic Land Management</p>
+      <p class="small">Built simple. Runs fast.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
