@@ -9,7 +9,7 @@ const COMPANY = {
 
 // List your photo files here (put them in /images/work/)
 const WORK_PHOTOS = [
-  "IMG_1.jpg",
+  "IMG_1",
   "IMG_2.jpg",
   "IMG_3.jpg",
   "IMG_4.jpg",
